@@ -1,12 +1,12 @@
 
-public class Personne {
+public class Professeur {
 	
 	private String nom;
 	private int age;
-	private String couleurYeux;
+	private String coursEnseigne;
 	
 	public String toString() {
-		return "toString de Personne";
+		return "toString de Professeur";
 	}
 
 }
