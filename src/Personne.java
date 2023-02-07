@@ -1,8 +1,12 @@
 
 public class Personne {
 	
-	String nom;
-	int age;
-	String couleurYeux;
+	private String nom;
+	private int age;
+	private String couleurYeux;
+	
+	public String toString() {
+		return "toString de Personne";
+	}
 
 }
